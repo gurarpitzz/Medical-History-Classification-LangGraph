@@ -24,11 +24,11 @@ User is prompted for their symptoms through an input node.
 2. LLM Classification
 The Gemini model is asked to classify the input as one of:
 
-General
+ -General
 
-Emergency
+ -Emergency
 
-Mental Health
+ -Mental Health
 
 3. Routing via LangGraph
 LangGraph routes the workflow based on LLM output to the appropriate handling node.
