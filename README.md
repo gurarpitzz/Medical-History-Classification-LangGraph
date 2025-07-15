@@ -17,7 +17,16 @@ It demonstrates:
 - Graph-based logic with **conditional branching**
 
 ---
+## 📌 Future Improvements
+Add streaming chat interface (e.g., Gradio or Streamlit)
 
+Expand classification categories
+
+Log patient sessions securely
+
+Add multilingual support
+
+---
 ## 📦 Dependencies
 
 Install all required packages:
