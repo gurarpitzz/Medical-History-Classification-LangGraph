@@ -17,6 +17,27 @@ It demonstrates:
 - Graph-based logic with **conditional branching**
 
 ---
+## 🚀 How It Works
+1. Symptom Collection
+User is prompted for their symptoms through an input node.
+
+2. LLM Classification
+The Gemini model is asked to classify the input as one of:
+
+General
+
+Emergency
+
+Mental Health
+
+3. Routing via LangGraph
+LangGraph routes the workflow based on LLM output to the appropriate handling node.
+
+4. Final Output
+The assistant responds with triage instructions directing the user to the correct hospital department.
+
+---
+
 ## 📌 Future Improvements
 Add streaming chat interface (e.g., Gradio or Streamlit)
 
